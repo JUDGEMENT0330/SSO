@@ -1,0 +1,1913 @@
+{
+  "academia_salud_seguridad_ocupacional": {
+    "informacion_general": {
+      "titulo": "Academia de Salud y Seguridad Ocupacional - El Salvador",
+      "descripcion": "Programa educativo integral basado en la Ley General de Prevención de Riesgos en los Lugares de Trabajo de El Salvador",
+      "objetivo_principal": "Formar y capacitar a miembros actuales y futuros de comités de salud y seguridad ocupacional, así como a trabajadores en general, sobre sus derechos, obligaciones y mejores prácticas en prevención de riesgos laborales",
+      "publico_objetivo": [
+        "Miembros actuales de comités de seguridad y salud ocupacional",
+        "Trabajadores candidatos a formar parte de comités",
+        "Delegados de prevención",
+        "Empleadores y supervisores",
+        "Profesionales en recursos humanos",
+        "Técnicos en seguridad ocupacional"
+      ],
+      "duracion_total": "120 horas académicas",
+      "modalidad": "Mixta (presencial y virtual)"
+    },
+    
+    "estructura_certificacion": {
+      "nivel_basico": {
+        "nombre": "Certificado Básico en Seguridad y Salud Ocupacional",
+        "duracion": "40 horas",
+        "requisitos": "Ninguno",
+        "modulos_incluidos": ["modulo_1", "modulo_2", "modulo_3"]
+      },
+      "nivel_intermedio": {
+        "nombre": "Certificado Intermedio - Delegado de Prevención",
+        "duracion": "40 horas adicionales",
+        "requisitos": "Certificado Básico aprobado",
+        "modulos_incluidos": ["modulo_4", "modulo_5", "modulo_6"]
+      },
+      "nivel_avanzado": {
+        "nombre": "Certificado Avanzado - Miembro de Comité",
+        "duracion": "40 horas adicionales",
+        "requisitos": "Certificado Intermedio aprobado",
+        "modulos_incluidos": ["modulo_7", "modulo_8", "modulo_9", "modulo_10"]
+      }
+    },
+
+    "cursos": [
+      {
+        "id": "curso_1",
+        "titulo": "Fundamentos Legales y Principios de la Seguridad Ocupacional",
+        "descripcion": "Introducción a los aspectos legales, principios rectores y marco normativo de la seguridad y salud ocupacional en El Salvador",
+        "nivel": "basico",
+        "duracion": "15 horas",
+        "modulos": ["modulo_1", "modulo_2"]
+      },
+      {
+        "id": "curso_2", 
+        "titulo": "Gestión de la Seguridad y Salud Ocupacional",
+        "descripcion": "Organización, implementación y gestión de programas de prevención de riesgos en el lugar de trabajo",
+        "nivel": "basico",
+        "duracion": "25 horas",
+        "modulos": ["modulo_3", "modulo_4"]
+      },
+      {
+        "id": "curso_3",
+        "titulo": "Comités de Seguridad y Delegados de Prevención",
+        "descripcion": "Formación especializada para miembros de comités y delegados de prevención",
+        "nivel": "intermedio", 
+        "duracion": "25 horas",
+        "modulos": ["modulo_5", "modulo_6"]
+      },
+      {
+        "id": "curso_4",
+        "titulo": "Infraestructura Segura y Condiciones de Trabajo",
+        "descripcion": "Requisitos de seguridad en instalaciones, equipos y condiciones ambientales de trabajo",
+        "nivel": "intermedio",
+        "duracion": "25 horas",
+        "modulos": ["modulo_7", "modulo_8"]
+      },
+      {
+        "id": "curso_5",
+        "titulo": "Obligaciones, Derechos y Régimen Sancionador",
+        "descripcion": "Marco de responsabilidades, derechos de los trabajadores y sistema de sanciones",
+        "nivel": "avanzado",
+        "duracion": "30 horas",
+        "modulos": ["modulo_9", "modulo_10"]
+      }
+    ],
+
+    "modulos": {
+      "modulo_1": {
+        "id": "modulo_1",
+        "titulo": "Marco Legal y Principios Fundamentales",
+        "curso_id": "curso_1",
+        "duracion": "8 horas",
+        "objetivos_aprendizaje": [
+          "Comprender el marco constitucional y legal que sustenta la seguridad ocupacional en El Salvador",
+          "Identificar los principios rectores de igualdad, dignidad y prevención",
+          "Conocer el campo de aplicación de la ley y las competencias institucionales",
+          "Dominar las definiciones técnicas fundamentales en seguridad ocupacional"
+        ],
+        "contenido_educativo": {
+          "introduccion": "La Ley General de Prevención de Riesgos en los Lugares de Trabajo constituye el marco legal fundamental para garantizar condiciones seguras y saludables en todos los centros de trabajo de El Salvador. Esta ley se basa en principios constitucionales y convenios internacionales que reconocen el derecho fundamental de todo trabajador a un ambiente laboral seguro.",
+          "temas": [
+            {
+              "tema": "Fundamentos Constitucionales y Convenios Internacionales",
+              "contenido": "El artículo 44 de la Constitución establece que la ley reglamentará las condiciones de talleres, fábricas y lugares de trabajo. El Convenio 155 de la OIT sobre Seguridad y Salud de los Trabajadores, ratificado por El Salvador, obliga al Estado a adoptar medidas legislativas para proteger a los trabajadores.",
+              "puntos_clave": [
+                "Base constitucional del derecho a la seguridad ocupacional",
+                "Compromisos internacionales de El Salvador",
+                "Obligación estatal de proteger la vida e integridad de los trabajadores"
+              ]
+            },
+            {
+              "tema": "Principios Rectores de la Ley",
+              "contenido": "La ley establece tres principios fundamentales que guían toda su aplicación: igualdad, respeto a la dignidad y prevención.",
+              "puntos_clave": [
+                "Principio de igualdad: No discriminación en oportunidades y trato laboral",
+                "Respeto a la dignidad: Ambiente libre de violencia y discriminación", 
+                "Prevención: Medidas técnicas y preventivas para garantizar seguridad"
+              ]
+            },
+            {
+              "tema": "Campo de Aplicación y Competencias",
+              "contenido": "La ley se aplica a todos los lugares de trabajo, públicos y privados. El Ministerio de Trabajo y Previsión Social es la autoridad competente para su cumplimiento.",
+              "puntos_clave": [
+                "Aplicación universal: sector público y privado",
+                "Competencia del Ministerio de Trabajo",
+                "Coordinación interinstitucional",
+                "No existen regímenes especiales de excepción"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "1.1",
+            "titulo": "Antecedentes y Marco Constitucional",
+            "duracion": "2 horas",
+            "contenido": "Análisis del artículo 44 constitucional y su desarrollo legislativo. Estudio de los considerandos de la ley y su fundamentación en tratados internacionales.",
+            "actividades": [
+              "Lectura dirigida de los considerandos de la ley",
+              "Análisis comparativo con legislación de otros países centroamericanos",
+              "Discusión grupal sobre la importancia del marco legal"
+            ]
+          },
+          {
+            "leccion_id": "1.2", 
+            "titulo": "Principios Rectores: Igualdad, Dignidad y Prevención",
+            "duracion": "3 horas",
+            "contenido": "Estudio detallado de cada principio rector y su aplicación práctica en el ambiente laboral. Casos de discriminación y violencia laboral.",
+            "actividades": [
+              "Análisis de casos reales de discriminación laboral",
+              "Taller sobre identificación de violencia en el trabajo",
+              "Elaboración de propuestas preventivas"
+            ]
+          },
+          {
+            "leccion_id": "1.3",
+            "titulo": "Definiciones Técnicas Fundamentales", 
+            "duracion": "3 horas",
+            "contenido": "Estudio de las 30 definiciones técnicas establecidas en la ley, desde 'acción insegura' hasta 'ventilación', con ejemplos prácticos de cada concepto.",
+            "actividades": [
+              "Construcción de glosario ilustrado",
+              "Ejercicios de identificación en casos prácticos",
+              "Juego de roles aplicando definiciones"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP1.1",
+            "titulo": "Discriminación por Embarazo en el Trabajo",
+            "descripcion": "Una trabajadora embarazada es trasladada a un puesto de menor responsabilidad sin justificación técnica, alegando 'protección'.",
+            "preguntas_analisis": [
+              "¿Se viola algún principio rector de la ley?",
+              "¿Qué medidas preventivas debieron tomarse?",
+              "¿Cómo debe actuar el comité de seguridad?"
+            ],
+            "solucion": "Aplicación del principio de igualdad y no discriminación, evaluación de riesgos específicos del puesto, adaptación de condiciones sin menoscabo de derechos laborales."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Cuál es el fundamento constitucional de la Ley de Prevención de Riesgos?",
+              "opciones": [
+                "a) Artículo 42 - Derecho al trabajo",
+                "b) Artículo 44 - Condiciones de lugares de trabajo", 
+                "c) Artículo 45 - Jornada laboral",
+                "d) Artículo 47 - Derecho de huelga"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El artículo 44 constitucional establece que la ley reglamentará las condiciones que deben reunir talleres, fábricas y lugares de trabajo."
+            },
+            {
+              "pregunta": "¿Cuáles son los tres principios rectores de la ley?",
+              "opciones": [
+                "a) Igualdad, dignidad y prevención",
+                "b) Seguridad, salud y bienestar", 
+                "c) Protección, capacitación y supervisión",
+                "d) Prevención, corrección y sanción"
+              ],
+              "respuesta_correcta": "a",
+              "explicacion": "Los principios rectores establecidos en el artículo 2 son: igualdad, respeto a la dignidad y prevención."
+            },
+            {
+              "pregunta": "¿Qué institución es competente para garantizar el cumplimiento de la ley?",
+              "opciones": [
+                "a) Ministerio de Salud",
+                "b) Instituto Salvadoreño del Seguro Social",
+                "c) Ministerio de Trabajo y Previsión Social",
+                "d) Ministerio de Economía"
+              ],
+              "respuesta_correcta": "c", 
+              "explicacion": "Según el artículo 5, es competencia del Ministerio de Trabajo y Previsión Social garantizar el cumplimiento de la ley."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "Las instituciones autónomas pueden alegar régimen especial para incumplir la ley.",
+              "respuesta_correcta": false,
+              "explicacion": "El artículo 4 establece claramente que ninguna institución autónoma podrá alegar régimen especial para incumplir las disposiciones."
+            },
+            {
+              "pregunta": "La ley se aplica únicamente a empresas privadas.",
+              "respuesta_correcta": false,
+              "explicacion": "La ley se aplica a todos los lugares de trabajo, sean privados o del Estado, según el artículo 4."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "documento",
+            "titulo": "Convenio 155 OIT - Seguridad y Salud de los Trabajadores",
+            "descripcion": "Texto completo del convenio internacional que fundamenta la ley nacional"
+          },
+          {
+            "tipo": "video",
+            "titulo": "Principios de la Seguridad Ocupacional",
+            "descripcion": "Video educativo sobre la aplicación práctica de los principios rectores"
+          },
+          {
+            "tipo": "infografia",
+            "titulo": "Mapa Conceptual de Definiciones Técnicas",
+            "descripcion": "Representación visual de las principales definiciones de la ley"
+          }
+        ]
+      },
+
+      "modulo_2": {
+        "id": "modulo_2",
+        "titulo": "Obligaciones Generales de Prevención",
+        "curso_id": "curso_1", 
+        "duracion": "7 horas",
+        "objetivos_aprendizaje": [
+          "Identificar las obligaciones específicas establecidas en el artículo 3 de la ley",
+          "Comprender la jerarquía de medidas preventivas: fuente, medio, persona",
+          "Analizar la importancia de la adaptación del trabajo a la persona",
+          "Evaluar la prohibición de discriminación en políticas de seguridad"
+        ],
+        "contenido_educativo": {
+          "introduccion": "El artículo 3 de la ley establece siete obligaciones fundamentales que constituyen la base de toda política preventiva. Estas obligaciones siguen una lógica de jerarquía preventiva reconocida internacionalmente.",
+          "temas": [
+            {
+              "tema": "Jerarquía de Medidas Preventivas",
+              "contenido": "La prevención debe seguir un orden de prioridad: primero eliminar el riesgo en la fuente, luego protección colectiva, finalmente protección individual.",
+              "puntos_clave": [
+                "Control en la fuente del riesgo",
+                "Medios técnicos de protección colectiva", 
+                "Equipo de protección personal como última opción",
+                "Procedimientos eficaces de organización"
+              ]
+            },
+            {
+              "tema": "Adaptación del Trabajo a la Persona",
+              "contenido": "Principio ergonómico fundamental que requiere diseñar puestos de trabajo considerando las capacidades y limitaciones humanas.",
+              "puntos_clave": [
+                "Diseño ergonómico de puestos de trabajo",
+                "Selección adecuada de equipos y métodos",
+                "Reducción del trabajo monótono y repetitivo",
+                "Consideración de diferencias individuales"
+              ]
+            },
+            {
+              "tema": "Sustitución de lo Peligroso",
+              "contenido": "Obligación de reemplazar sustancias, equipos o procedimientos peligrosos por alternativas más seguras cuando sea técnicamente posible.",
+              "puntos_clave": [
+                "Evaluación de alternativas más seguras",
+                "Análisis costo-beneficio de la sustitución",
+                "Implementación gradual de cambios",
+                "Capacitación en nuevos procedimientos"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "2.1",
+            "titulo": "Jerarquía de Controles en Prevención",
+            "duracion": "2.5 horas",
+            "contenido": "Estudio detallado de la pirámide de controles: eliminación, sustitución, controles de ingeniería, controles administrativos y EPP.",
+            "actividades": [
+              "Construcción de pirámide de controles con ejemplos",
+              "Análisis de casos donde se aplica cada nivel",
+              "Ejercicio de priorización de medidas preventivas"
+            ]
+          },
+          {
+            "leccion_id": "2.2",
+            "titulo": "Ergonomía y Adaptación del Puesto de Trabajo",
+            "duracion": "2.5 horas", 
+            "contenido": "Principios ergonómicos básicos, evaluación de puestos de trabajo, consideraciones especiales para mujeres y personas con discapacidad.",
+            "actividades": [
+              "Evaluación ergonómica de un puesto tipo",
+              "Diseño de mejoras ergonómicas",
+              "Taller sobre trabajo repetitivo y monótono"
+            ]
+          },
+          {
+            "leccion_id": "2.3",
+            "titulo": "Planificación Preventiva y No Discriminación",
+            "duracion": "2 horas",
+            "contenido": "Desarrollo de planes integrales de prevención, considerando aspectos técnicos, organizacionales y sociales sin discriminación.",
+            "actividades": [
+              "Elaboración de plan preventivo básico",
+              "Identificación de prácticas discriminatorias",
+              "Propuestas de políticas inclusivas"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP2.1", 
+            "titulo": "Ruido Excesivo en Área de Producción",
+            "descripcion": "Una fábrica textil presenta niveles de ruido de 95 dB en el área de costura. Los trabajadores se quejan de fatiga auditiva.",
+            "preguntas_analisis": [
+              "¿Qué medidas preventivas se deben aplicar según la jerarquía?",
+              "¿Es suficiente entregar tapones auditivos?",
+              "¿Qué controles de ingeniería son posibles?"
+            ],
+            "solucion": "Aplicar jerarquía: 1) Control en fuente (mantenimiento de máquinas, silenciadores), 2) Control en medio (barreras acústicas, tratamiento acústico), 3) Control administrativo (rotación, pausas), 4) EPP (protección auditiva)."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Cuál es el orden correcto de la jerarquía de controles preventivos?",
+              "opciones": [
+                "a) EPP, controles administrativos, controles de ingeniería",
+                "b) Fuente, medio ambiente, persona",
+                "c) Capacitación, supervisión, sanción", 
+                "d) Identificación, evaluación, control"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "La jerarquía establece: primero controlar en la fuente, luego en el medio ambiente de trabajo, finalmente en la persona."
+            },
+            {
+              "pregunta": "¿Qué significa 'adecuar el lugar de trabajo a la persona'?",
+              "opciones": [
+                "a) Que la persona se adapte al trabajo disponible",
+                "b) Diseñar puestos considerando capacidades humanas",
+                "c) Contratar solo personas aptas físicamente",
+                "d) Rotar personal según sus preferencias"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "Es un principio ergonómico que requiere diseñar el trabajo considerando las capacidades y limitaciones humanas."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "El equipo de protección personal debe ser la primera opción preventiva.",
+              "respuesta_correcta": false,
+              "explicacion": "El EPP es la última opción en la jerarquía de controles, después de agotar controles en fuente y medio."
+            },
+            {
+              "pregunta": "Se puede discriminar en la aplicación de medidas de seguridad si es por protección.",
+              "respuesta_correcta": false,
+              "explicacion": "El artículo 3 prohíbe expresamente toda forma de discriminación en políticas de seguridad ocupacional."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "guia",
+            "titulo": "Manual de Jerarquía de Controles",
+            "descripcion": "Guía práctica para aplicar la jerarquía de controles en diferentes sectores"
+          },
+          {
+            "tipo": "checklist",
+            "titulo": "Lista de Verificación Ergonómica",
+            "descripcion": "Herramienta para evaluar condiciones ergonómicas básicas"
+          }
+        ]
+      },
+
+      "modulo_3": {
+        "id": "modulo_3",
+        "titulo": "Programa de Gestión de Prevención de Riesgos",
+        "curso_id": "curso_2",
+        "duracion": "12 horas",
+        "objetivos_aprendizaje": [
+          "Comprender los elementos básicos del Programa de Gestión según el artículo 8",
+          "Desarrollar capacidades para formular programas de prevención",
+          "Identificar mecanismos de evaluación y seguimiento",
+          "Establecer sistemas de registro y documentación de incidentes"
+        ],
+        "contenido_educativo": {
+          "introduccion": "El Programa de Gestión de Prevención de Riesgos Ocupacionales es la herramienta fundamental que todo empleador debe implementar. Consta de 10 elementos básicos que aseguran un enfoque integral de la prevención.",
+          "temas": [
+            {
+              "tema": "Elementos del Programa de Gestión",
+              "contenido": "Los 10 elementos básicos establecidos en el artículo 8 constituyen un sistema integral de gestión preventiva.",
+              "puntos_clave": [
+                "Evaluación periódica del programa",
+                "Identificación y control de riesgos",
+                "Registro de accidentes y enfermedades",
+                "Plan de emergencia y evacuación",
+                "Entrenamiento teórico y práctico",
+                "Exámenes médicos y primeros auxilios",
+                "Programas complementarios de salud",
+                "Actividades del comité de seguridad",
+                "Difusión y promoción preventiva",
+                "Prevención de violencia y riesgos psicosociales"
+              ]
+            },
+            {
+              "tema": "Identificación y Evaluación de Riesgos",
+              "contenido": "Proceso sistemático para identificar peligros, evaluar riesgos y establecer medidas de control, con énfasis en salud reproductiva.",
+              "puntos_clave": [
+                "Metodologías de identificación de peligros",
+                "Técnicas de evaluación de riesgos",
+                "Matriz de riesgos y controles",
+                "Protección especial durante embarazo y lactancia"
+              ]
+            },
+            {
+              "tema": "Sistema de Registro y Documentación",
+              "contenido": "Obligación de mantener registros actualizados de accidentes, enfermedades profesionales y sucesos peligrosos para investigación y prevención.",
+              "puntos_clave": [
+                "Formatos de registro de accidentes",
+                "Investigación de causas",
+                "Análisis de tendencias",
+                "Medidas correctivas y preventivas"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "3.1",
+            "titulo": "Estructura y Elementos del Programa",
+            "duracion": "3 horas",
+            "contenido": "Análisis detallado de cada uno de los 10 elementos básicos del programa, su interrelación y importancia relativa.",
+            "actividades": [
+              "Mapeo de elementos del programa",
+              "Análisis de programas existentes",
+              "Identificación de brechas comunes"
+            ]
+          },
+          {
+            "leccion_id": "3.2",
+            "titulo": "Identificación y Evaluación de Riesgos",
+            "duracion": "4 horas",
+            "contenido": "Metodologías prácticas para identificar peligros y evaluar riesgos, incluyendo herramientas como matrices de riesgo y listas de verificación.",
+            "actividades": [
+              "Práctica de identificación de peligros",
+              "Construcción de matriz de riesgos",
+              "Evaluación de puesto de trabajo real"
+            ]
+          },
+          {
+            "leccion_id": "3.3",
+            "titulo": "Planes de Emergencia y Evacuación",
+            "duracion": "3 horas",
+            "contenido": "Diseño e implementación de planes de emergencia, procedimientos de evacuación, sistemas de alarma y puntos de encuentro.",
+            "actividades": [
+              "Diseño de plan de evacuación",
+              "Simulacro de emergencia",
+              "Evaluación de tiempos de evacuación"
+            ]
+          },
+          {
+            "leccion_id": "3.4",
+            "titulo": "Capacitación y Programas Complementarios",
+            "duracion": "2 horas",
+            "contenido": "Desarrollo de programas de capacitación teórica y práctica, programas sobre alcohol, drogas, salud mental y reproductiva.",
+            "actividades": [
+              "Diseño de programa de capacitación",
+              "Elaboración de material educativo",
+              "Planificación de programas complementarios"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP3.1",
+            "titulo": "Implementación de Programa en Empresa Mediana",
+            "descripcion": "Una empresa de 150 trabajadores del sector construcción necesita implementar su primer Programa de Gestión de Prevención de Riesgos.",
+            "preguntas_analisis": [
+              "¿Qué elementos del programa son prioritarios?",
+              "¿Cómo adaptar el programa al sector construcción?",
+              "¿Qué recursos humanos y económicos se requieren?"
+            ],
+            "solucion": "Desarrollo gradual priorizando: 1) Identificación de riesgos específicos de construcción, 2) Plan de emergencia, 3) Capacitación en uso de EPP, 4) Comité de seguridad, 5) Registros de accidentes."
+          },
+          {
+            "caso_id": "CP3.2",
+            "titulo": "Accidente por Falta de Procedimientos",
+            "descripcion": "Un trabajador sufre quemaduras químicas por no seguir procedimientos de manejo de sustancias peligrosas que no estaban claramente establecidos.",
+            "preguntas_analisis": [
+              "¿Qué elementos del programa fallaron?",
+              "¿Cómo debe investigarse el accidente?",
+              "¿Qué medidas preventivas implementar?"
+            ],
+            "solucion": "Fallas en: identificación de riesgos químicos, capacitación específica, procedimientos escritos. Investigar causas inmediatas y básicas, implementar procedimientos seguros, capacitar personal, mejorar supervisión."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Cuántos elementos básicos debe contener el Programa de Gestión?",
+              "opciones": [
+                "a) 8 elementos",
+                "b) 10 elementos", 
+                "c) 12 elementos",
+                "d) 15 elementos"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El artículo 8 establece 10 elementos básicos que debe contener el Programa de Gestión."
+            },
+            {
+              "pregunta": "¿Con qué frecuencia debe actualizarse el programa?",
+              "opciones": [
+                "a) Cada 6 meses",
+                "b) Cada año",
+                "c) Cada 2 años", 
+                "d) Cuando ocurra un accidente"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El artículo 8 establece que el programa debe actualizarse cada año."
+            },
+            {
+              "pregunta": "¿Qué debe incluir el registro de accidentes?",
+              "opciones": [
+                "a) Solo accidentes con lesiones graves",
+                "b) Accidentes, enfermedades profesionales y sucesos peligrosos",
+                "c) Únicamente accidentes mortales",
+                "d) Solo accidentes que generen incapacidad"
+              ],
+              "respuesta_correcta": "b", 
+              "explicacion": "El programa debe incluir registro de accidentes, enfermedades profesionales y sucesos peligrosos."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "El programa debe hacer especial énfasis en la protección de la salud reproductiva.",
+              "respuesta_correcta": true,
+              "explicacion": "El artículo 8 establece especial énfasis en protección durante embarazo, post-parto y lactancia."
+            },
+            {
+              "pregunta": "Solo las empresas grandes necesitan plan de emergencia y evacuación.",
+              "respuesta_correcta": false,
+              "explicacion": "Todas las empresas deben diseñar e implementar su plan de emergencia y evacuación."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "plantilla",
+            "titulo": "Plantilla de Programa de Gestión",
+            "descripcion": "Formato base para desarrollar el programa según los 10 elementos requeridos"
+          },
+          {
+            "tipo": "matriz",
+            "titulo": "Matriz de Identificación de Riesgos",
+            "descripcion": "Herramienta para identificar y evaluar riesgos por puesto de trabajo"
+          },
+          {
+            "tipo": "procedimiento",
+            "titulo": "Procedimiento de Investigación de Accidentes",
+            "descripcion": "Metodología paso a paso para investigar accidentes y sucesos peligrosos"
+          }
+        ]
+      },
+
+      "modulo_4": {
+        "id": "modulo_4",
+        "titulo": "Protección de Trabajadores Temporales y Medidas Especiales",
+        "curso_id": "curso_2",
+        "duracion": "13 horas",
+        "objetivos_aprendizaje": [
+          "Garantizar igualdad de protección para trabajadores temporales",
+          "Implementar medidas de adaptación según características físicas y biológicas",
+          "Comprender las excepciones para empresas pequeñas y actividades peligrosas",
+          "Desarrollar enfoques no discriminatorios en la gestión preventiva"
+        ],
+        "contenido_educativo": {
+          "introduccion": "Los artículos 9 al 12 establecen principios fundamentales de igualdad de trato y adaptación de medidas preventivas a las características específicas de diferentes grupos de trabajadores, sin permitir discriminación.",
+          "temas": [
+            {
+              "tema": "Igualdad de Protección para Trabajadores Temporales",
+              "contenido": "Los trabajadores temporales deben recibir el mismo nivel de protección que los permanentes, sin diferencias por duración del contrato.",
+              "puntos_clave": [
+                "Mismo nivel de protección independiente del tipo de contrato",
+                "Prohibición de diferencias de trato por temporalidad",
+                "Inclusión en programas de capacitación",
+                "Acceso a equipos de protección personal"
+              ]
+            },
+            {
+              "tema": "Adaptación a Características Físicas y Biológicas",
+              "contenido": "Las medidas de seguridad deben considerar las diferencias físicas y biológicas entre trabajadores, especialmente entre hombres y mujeres.",
+              "puntos_clave": [
+                "Consideración de diferencias de género",
+                "Adaptación a capacidades físicas individuales",
+                "Medidas especiales para embarazo y lactancia",
+                "Prohibición de uso discriminatorio de estas diferencias"
+              ]
+            },
+            {
+              "tema": "Régimen Especial para Empresas Pequeñas",
+              "contenido": "Empresas con menos de 15 trabajadores pueden tener medidas simplificadas, excepto en actividades peligrosas.",
+              "puntos_clave": [
+                "Umbral de 15 trabajadores para programa completo",
+                "Medidas alternativas del Ministerio de Trabajo",
+                "Excepción para actividades peligrosas",
+                "Criterios de peligrosidad laboral"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "4.1",
+            "titulo": "Derechos de Trabajadores Temporales",
+            "duracion": "3 horas",
+            "contenido": "Análisis de la igualdad de derechos entre trabajadores permanentes y temporales en materia de seguridad ocupacional.",
+            "actividades": [
+              "Comparación de derechos por tipo de contrato",
+              "Análisis de casos de discriminación",
+              "Elaboración de protocolo de integración"
+            ]
+          },
+          {
+            "leccion_id": "4.2",
+            "titulo": "Adaptación sin Discriminación",
+            "duracion": "4 horas",
+            "contenido": "Cómo adaptar las condiciones de trabajo a características individuales sin crear discriminación negativa.",
+            "actividades": [
+              "Evaluación de puestos con enfoque de género",
+              "Diseño de adaptaciones razonables",
+              "Taller sobre estereotipos y discriminación"
+            ]
+          },
+          {
+            "leccion_id": "4.3",
+            "titulo": "Protección Durante Embarazo y Lactancia",
+            "duracion": "3 horas",
+            "contenido": "Medidas específicas de protección para trabajadoras embarazadas y en período de lactancia.",
+            "actividades": [
+              "Identificación de riesgos específicos",
+              "Adaptación de puestos de trabajo",
+              "Planificación de permisos y descansos"
+            ]
+          },
+          {
+            "leccion_id": "4.4",
+            "titulo": "Gestión en Empresas Pequeñas y Actividades Peligrosas",
+            "duracion": "3 horas",
+            "contenido": "Aplicación diferenciada de la ley según tamaño de empresa y nivel de peligrosidad de la actividad.",
+            "actividades": [
+              "Clasificación de actividades peligrosas",
+              "Diseño de medidas simplificadas",
+              "Evaluación de recursos necesarios"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP4.1",
+            "titulo": "Trabajadora Embarazada en Área de Químicos",
+            "descripcion": "Una trabajadora embarazada labora en un laboratorio con exposición a solventes orgánicos. La empresa considera despedirla 'por su seguridad'.",
+            "preguntas_analisis": [
+              "¿Es legal el despido por embarazo?",
+              "¿Qué adaptaciones se deben realizar?",
+              "¿Cómo evaluar los riesgos específicos?"
+            ],
+            "solucion": "Prohibido el despido discriminatorio. Evaluar riesgos específicos para embarazo, reubicar temporalmente en área sin exposición química, mantener salario y derechos, proporcionar capacitación para nuevo puesto."
+          },
+          {
+            "caso_id": "CP4.2",
+            "titulo": "Empresa Pequeña con Actividad Peligrosa",
+            "descripcion": "Un taller de soldadura con 8 trabajadores argumenta que no necesita programa completo por su tamaño.",
+            "preguntas_analisis": [
+              "¿Aplica la excepción por tamaño?",
+              "¿La soldadura es actividad peligrosa?",
+              "¿Qué medidas mínimas debe implementar?"
+            ],
+            "solucion": "La soldadura es actividad peligrosa, no aplica excepción por tamaño. Debe implementar programa completo incluyendo: ventilación adecuada, EPP específico, capacitación en riesgos, exámenes médicos, plan de emergencia."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Qué nivel de protección deben recibir los trabajadores temporales?",
+              "opciones": [
+                "a) Menor protección por ser temporales",
+                "b) El mismo nivel que trabajadores permanentes",
+                "c) Solo protección básica",
+                "d) Protección según duración del contrato"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El artículo 9 establece que deben gozar del mismo nivel de protección que el resto de trabajadores."
+            },
+            {
+              "pregunta": "¿Cuándo pueden exceptuarse empresas del programa completo?",
+              "opciones": [
+                "a) Siempre que tengan menos de 15 trabajadores",
+                "b) Nunca, todas deben tener programa completo",
+                "c) Menos de 15 trabajadores, excepto actividades peligrosas",
+                "d) Solo empresas familiares"
+              ],
+              "respuesta_correcta": "c",
+              "explicacion": "Empresas con menos de 15 trabajadores pueden usar medidas alternativas, excepto en actividades peligrosas."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "Las diferencias biológicas pueden usarse para discriminar negativamente.",
+              "respuesta_correcta": false,
+              "explicacion": "El artículo 11 prohíbe usar las características físicas y biológicas para establecer discriminaciones negativas."
+            },
+            {
+              "pregunta": "Todas las empresas, sin excepción, deben tener programa completo.",
+              "respuesta_correcta": false,
+              "explicacion": "Empresas con menos de 15 trabajadores pueden usar medidas alternativas, excepto en actividades peligrosas."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "guia",
+            "titulo": "Guía de Adaptaciones Razonables",
+            "descripcion": "Manual para implementar adaptaciones sin discriminación"
+          },
+          {
+            "tipo": "checklist",
+            "titulo": "Lista de Actividades Peligrosas",
+            "descripcion": "Clasificación de actividades que requieren programa completo"
+          }
+        ]
+      },
+
+      "modulo_5": {
+        "id": "modulo_5",
+        "titulo": "Comités de Seguridad y Salud Ocupacional",
+        "curso_id": "curso_3",
+        "duracion": "15 horas",
+        "objetivos_aprendizaje": [
+          "Comprender la obligación de crear comités según el tamaño de empresa",
+          "Conocer la estructura, composición y funcionamiento de los comités",
+          "Dominar las funciones específicas de los comités de seguridad",
+          "Desarrollar habilidades para la gestión efectiva de comités"
+        ],
+        "contenido_educativo": {
+          "introduccion": "Los Comités de Seguridad y Salud Ocupacional son órganos paritarios fundamentales para la gestión preventiva. Su creación es obligatoria en empresas con 15 o más trabajadores y en actividades peligrosas independientemente del tamaño.",
+          "temas": [
+            {
+              "tema": "Obligación de Crear Comités",
+              "contenido": "Criterios para la creación obligatoria de comités según número de trabajadores y tipo de actividad.",
+              "puntos_clave": [
+                "Umbral de 15 trabajadores para creación obligatoria",
+                "Excepción para actividades peligrosas",
+                "Criterio de la Dirección General de Previsión Social",
+                "Requisitos de formación de miembros"
+              ]
+            },
+            {
+              "tema": "Estructura y Composición",
+              "contenido": "Los comités deben tener representación paritaria entre empleadores y trabajadores, garantizando participación equitativa y sindical.",
+              "puntos_clave": [
+                "Representación paritaria empleador-trabajadores",
+                "Participación equitativa de hombres y mujeres",
+                "Inclusión de representantes sindicales",
+                "Consideración de especialidades y calificaciones"
+              ]
+            },
+            {
+              "tema": "Funciones del Comité",
+              "contenido": "Ocho funciones principales que van desde la participación en políticas hasta la elaboración de reglamentos internos.",
+              "puntos_clave": [
+                "Participación en política y programa de gestión",
+                "Promoción de iniciativas preventivas",
+                "Investigación de accidentes y enfermedades",
+                "Propuesta de medidas preventivas",
+                "Instrucción a trabajadores",
+                "Inspección de sitios de trabajo",
+                "Vigilancia del cumplimiento legal",
+                "Elaboración de reglamento interno"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "5.1",
+            "titulo": "Creación y Conformación de Comités",
+            "duracion": "4 horas",
+            "contenido": "Proceso de creación, criterios de obligatoriedad, selección de miembros y comunicación a autoridades.",
+            "actividades": [
+              "Simulación de proceso de creación",
+              "Selección de representantes",
+              "Elaboración de comunicación oficial"
+            ]
+          },
+          {
+            "leccion_id": "5.2",
+            "titulo": "Organización y Funcionamiento",
+            "duracion": "4 horas",
+            "contenido": "Estructura interna, roles y responsabilidades, programación de reuniones y toma de decisiones.",
+            "actividades": [
+              "Diseño de estructura organizacional",
+              "Planificación de reuniones",
+              "Simulación de sesión de comité"
+            ]
+          },
+          {
+            "leccion_id": "5.3",
+            "titulo": "Funciones Específicas del Comité",
+            "duracion": "4 horas",
+            "contenido": "Análisis detallado de las 8 funciones principales, metodologías de trabajo y herramientas de gestión.",
+            "actividades": [
+              "Práctica de investigación de accidentes",
+              "Elaboración de propuestas preventivas",
+              "Diseño de programa de inspecciones"
+            ]
+          },
+          {
+            "leccion_id": "5.4",
+            "titulo": "Reglamento Interno y Gestión Documental",
+            "duracion": "3 horas",
+            "contenido": "Elaboración del reglamento interno, sistemas de documentación y comunicación con autoridades.",
+            "actividades": [
+              "Redacción de reglamento interno",
+              "Diseño de formatos de registro",
+              "Planificación de comunicaciones"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP5.1",
+            "titulo": "Conflicto en Investigación de Accidente",
+            "descripcion": "El comité investiga un accidente y recomienda cambios en procedimientos, pero el empleador se niega a implementarlos por costos.",
+            "preguntas_analisis": [
+              "¿Qué puede hacer el comité ante la negativa?",
+              "¿Cuál es el rol de la Dirección General de Previsión Social?",
+              "¿Cómo documentar la controversia?"
+            ],
+            "solucion": "El comité debe documentar sus recomendaciones por escrito. Cualquier interesado puede informar a la Dirección General de Previsión Social, quien debe dirimir mediante inspección. Mantener registro de todas las comunicaciones."
+          },
+          {
+            "caso_id": "CP5.2",
+            "titulo": "Empresa sin Representación Sindical",
+            "descripción": "Una empresa de 200 trabajadores no tiene sindicato. ¿Cómo garantizar representación equitativa en el comité?",
+            "preguntas_analisis": [
+              "¿Es obligatoria la representación sindical?",
+              "¿Cómo seleccionar representantes trabajadores?",
+              "¿Qué criterios de equidad aplicar?"
+            ],
+            "solucion": "La representación sindical solo es obligatoria donde existan sindicatos. Seleccionar representantes por votación directa, garantizando participación equitativa por género, especialidades y niveles de calificación."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Cuándo es obligatorio crear un comité de seguridad?",
+              "opciones": [
+                "a) Solo en empresas con más de 50 trabajadores",
+                "b) En empresas con 15 o más trabajadores",
+                "c) Solo en actividades industriales",
+                "d) En todas las empresas sin excepción"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El artículo 13 establece la obligación en empresas con 15 o más trabajadores."
+            },
+            {
+              "pregunta": "¿Cuántas funciones principales tiene el comité?",
+              "opciones": [
+                "a) 6 funciones",
+                "b) 8 funciones",
+                "c) 10 funciones",
+                "d) 12 funciones"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El artículo 17 establece 8 funciones principales del comité."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "Los miembros del comité deben tener formación en prevención de riesgos.",
+              "respuesta_correcta": true,
+              "explicacion": "El artículo 13 establece que los miembros deben poseer formación e instrucción en prevención."
+            },
+            {
+              "pregunta": "El comité puede funcionar sin reglamento interno.",
+              "respuesta_correcta": false,
+              "explicacion": "El artículo 17 obliga a elaborar reglamento interno máximo 60 días después de conformación."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "plantilla",
+            "titulo": "Modelo de Reglamento Interno de Comité",
+            "descripcion": "Plantilla base para elaborar el reglamento de funcionamiento"
+          },
+          {
+            "tipo": "formato",
+            "titulo": "Formatos de Investigación de Accidentes",
+            "descripcion": "Herramientas para investigación objetiva de accidentes"
+          }
+        ]
+      },
+
+      "modulo_6": {
+        "id": "modulo_6",
+        "titulo": "Delegados de Prevención",
+        "curso_id": "curso_3",
+        "duracion": "10 horas",
+        "objetivos_aprendizaje": [
+          "Comprender el sistema de delegados de prevención según escala de trabajadores",
+          "Dominar las funciones específicas de los delegados",
+          "Desarrollar habilidades de vigilancia y control preventivo",
+          "Establecer mecanismos de colaboración con empleadores e inspectores"
+        ],
+        "contenido_educativo": {
+          "introduccion": "Los Delegados de Prevención son trabajadores designados específicamente para la gestión de seguridad y salud ocupacional. Su número se determina según una escala establecida por ley y tienen funciones específicas de colaboración, promoción y vigilancia.",
+          "temas": [
+            {
+              "tema": "Sistema de Designación de Delegados",
+              "contenido": "Escala progresiva de delegados según número de trabajadores, desde 1 delegado para 15-49 trabajadores hasta 8 para empresas de más de 4000.",
+              "puntos_clave": [
+                "Escala de 15-49 trabajadores: 1 delegado",
+                "50-100 trabajadores: 2 delegados",
+                "101-500 trabajadores: 3 delegados",
+                "501-1000 trabajadores: 4 delegados",
+                "1001-2000 trabajadores: 5 delegados",
+                "2001-3000 trabajadores: 6 delegados",
+                "3001-4000 trabajadores: 7 delegados",
+                "Más de 4000 trabajadores: 8 delegados"
+              ]
+            },
+            {
+              "tema": "Funciones de los Delegados",
+              "contenido": "Cinco funciones principales que abarcan colaboración, promoción, vigilancia, acompañamiento y propuesta de mejoras.",
+              "puntos_clave": [
+                "Colaboración en acciones preventivas",
+                "Promoción de cooperación trabajadora",
+                "Vigilancia y control del cumplimiento",
+                "Acompañamiento en inspecciones oficiales",
+                "Propuesta de medidas preventivas"
+              ]
+            },
+            {
+              "tema": "Capacitación y Acreditación",
+              "contenido": "Sistema de capacitación inicial por el Ministerio de Trabajo y responsabilidad empresarial en capacitaciones posteriores.",
+              "puntos_clave": [
+                "Capacitación inicial por MTPS",
+                "Segunda capacitación cuando se requiera",
+                "Capacitaciones posteriores a cargo del empleador",
+                "Proceso de acreditación oficial"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "6.1",
+            "titulo": "Designación y Escala de Delegados",
+            "duracion": "2.5 horas",
+            "contenido": "Cálculo del número de delegados según plantilla, proceso de designación y comunicación oficial.",
+            "actividades": [
+              "Cálculo de delegados para diferentes empresas",
+              "Simulación de proceso de designación",
+              "Elaboración de comunicación oficial"
+            ]
+          },
+          {
+            "leccion_id": "6.2",
+            "titulo": "Funciones de Colaboración y Promoción",
+            "duracion": "3 horas",
+            "contenido": "Desarrollo de las funciones de colaboración con la empresa y promoción de la cooperación trabajadora.",
+            "actividades": [
+              "Diseño de estrategias de colaboración",
+              "Técnicas de promoción y motivación",
+              "Resolución de conflictos preventivos"
+            ]
+          },
+          {
+            "leccion_id": "6.3",
+            "titulo": "Vigilancia y Control Preventivo",
+            "duracion": "3 horas",
+            "contenido": "Metodologías de vigilancia, técnicas de inspección y documentación de hallazgos.",
+            "actividades": [
+              "Práctica de inspecciones preventivas",
+              "Elaboración de informes de vigilancia",
+              "Uso de listas de verificación"
+            ]
+          },
+          {
+            "leccion_id": "6.4",
+            "titulo": "Acompañamiento en Inspecciones y Propuestas",
+            "duracion": "1.5 horas",
+            "contenido": "Rol durante inspecciones oficiales y elaboración de propuestas de mejora preventiva.",
+            "actividades": [
+              "Simulación de inspección oficial",
+              "Redacción de propuestas preventivas",
+              "Técnicas de comunicación con autoridades"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP6.1",
+            "titulo": "Delegado Detecta Riesgo Grave",
+            "descripcion": "Un delegado identifica una condición de riesgo grave e inminente en una máquina, pero el supervisor dice que no hay presupuesto para repararla.",
+            "preguntas_analisis": [
+              "¿Qué debe hacer el delegado inmediatamente?",
+              "¿Cómo documentar la situación?",
+              "¿Cuándo involucrar a autoridades externas?"
+            ],
+            "solucion": "Documentar inmediatamente el riesgo, proponer medidas temporales de control, comunicar formalmente al empleador, si no hay respuesta adecuada, informar a inspección de trabajo. Priorizar la seguridad sobre consideraciones económicas."
+          },
+          {
+            "caso_id": "CP6.2",
+            "titulo": "Resistencia a Cooperación Trabajadora",
+            "descripcion": "Algunos trabajadores se resisten a usar EPP y no cooperan con las medidas preventivas promovidas por el delegado.",
+            "preguntas_analisis": [
+              "¿Qué estrategias de promoción usar?",
+              "¿Cómo abordar la resistencia al cambio?",
+              "¿Cuál es el límite de la función promocional?"
+            ],
+            "solucion": "Identificar causas de resistencia (comodidad, desconocimiento, EPP inadecuado), desarrollar estrategias educativas, involucrar líderes informales, mejorar comunicación sobre beneficios, coordinar con supervisión para refuerzo positivo."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Cuántos delegados corresponden a una empresa de 250 trabajadores?",
+              "opciones": [
+                "a) 2 delegados",
+                "b) 3 delegados",
+                "c) 4 delegados",
+                "d) 5 delegados"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "Según la escala del artículo 13, de 101 a 500 trabajadores corresponden 3 delegados."
+            },
+            {
+              "pregunta": "¿Quién brinda la capacitación inicial a los delegados?",
+              "opciones": [
+                "a) El empleador",
+                "b) El comité de seguridad",
+                "c) El Ministerio de Trabajo y Previsión Social",
+                "d) Una empresa consultora"
+              ],
+              "respuesta_correcta": "c",
+              "explicacion": "El artículo 15 establece que el MTPS brinda la capacitación inicial para acreditación."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "Los delegados deben acompañar a los inspectores en las visitas preventivas.",
+              "respuesta_correcta": true,
+              "explicacion": "El artículo 14 establece como función acompañar a técnicos e inspectores del MTPS."
+            },
+            {
+              "pregunta": "Solo el empleador puede designar delegados de prevención.",
+              "respuesta_correcta": false,
+              "explicacion": "Los delegados pueden ser nombrados por el empleador o el comité de seguridad, según el caso."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "calculadora",
+            "titulo": "Calculadora de Delegados por Empresa",
+            "descripcion": "Herramienta para determinar número de delegados según plantilla"
+          },
+          {
+            "tipo": "checklist",
+            "titulo": "Lista de Verificación para Delegados",
+            "descripcion": "Herramienta de inspección preventiva para delegados"
+          }
+        ]
+      },
+
+      "modulo_7": {
+        "id": "modulo_7",
+        "titulo": "Seguridad en Infraestructura y Edificios",
+        "curso_id": "curso_4",
+        "duracion": "12 horas",
+        "objetivos_aprendizaje": [
+          "Comprender los requisitos de seguridad en planos arquitectónicos",
+          "Conocer las condiciones estructurales mínimas de seguridad",
+          "Identificar especificaciones técnicas para edificios de trabajo",
+          "Evaluar el cumplimiento de normativas de accesibilidad"
+        ],
+        "contenido_educativo": {
+          "introduccion": "La seguridad en la infraestructura es fundamental para prevenir accidentes. Los artículos 19 al 27 establecen requisitos específicos desde la fase de diseño hasta la construcción y mantenimiento de lugares de trabajo.",
+          "temas": [
+            {
+              "tema": "Requisitos en Planos Arquitectónicos",
+              "contenido": "Los planos deben cumplir condiciones de seguridad y salud ocupacional, sujetos a aprobación y verificación de la Dirección General de Previsión Social.",
+              "puntos_clave": [
+                "Aprobación previa de planos por DGPS",
+                "Inspección física durante construcción",
+                "Verificación de cumplimiento de especificaciones",
+                "Requisitos específicos según actividad"
+              ]
+            },
+            {
+              "tema": "Condiciones Estructurales de Seguridad",
+              "contenido": "Todo lugar de trabajo debe ofrecer garantías estructurales de seguridad e higiene según la naturaleza de las labores.",
+              "puntos_clave": [
+                "Garantías estructurales según tipo de trabajo",
+                "Condiciones de pasillos, paredes y techos",
+                "Seguridad en instalaciones eléctricas",
+                "Protección de maquinaria y equipos"
+              ]
+            },
+            {
+              "tema": "Accesibilidad Universal",
+              "contenido": "Obligación de acondicionar lugares de trabajo para personas con discapacidad según normativa técnica específica.",
+              "puntos_clave": [
+                "Acondicionamiento para personas con discapacidad",
+                "Vías de circulación accesibles",
+                "Servicios sanitarios adaptados",
+                "Cumplimiento de Normativa Técnica de Accesibilidad"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "7.1",
+            "titulo": "Planos y Especificaciones Técnicas",
+            "duracion": "3 horas",
+            "contenido": "Requisitos específicos para planos arquitectónicos, proceso de aprobación y elementos obligatorios.",
+            "actividades": [
+              "Revisión de planos arquitectónicos",
+              "Identificación de elementos de seguridad",
+              "Simulación de proceso de aprobación"
+            ]
+          },
+          {
+            "leccion_id": "7.2",
+            "titulo": "Condiciones Estructurales y Materiales",
+            "duracion": "4 horas",
+            "contenido": "Especificaciones para pisos, paredes, techos, instalaciones y su relación con la seguridad ocupacional.",
+            "actividades": [
+              "Evaluación de condiciones estructurales",
+              "Análisis de materiales apropiados",
+              "Inspección de instalaciones básicas"
+            ]
+          },
+          {
+            "leccion_id": "7.3",
+            "titulo": "Accesibilidad y Diseño Universal",
+            "duracion": "3 horas",
+            "contenido": "Principios de diseño universal, adaptaciones para personas con discapacidad y cumplimiento normativo.",
+            "actividades": [
+              "Evaluación de accesibilidad",
+              "Diseño de adaptaciones",
+              "Aplicación de normativa técnica"
+            ]
+          },
+          {
+            "leccion_id": "7.4",
+            "titulo": "Inspección y Mantenimiento Preventivo",
+            "duracion": "2 horas",
+            "contenido": "Sistemas de inspección regular de infraestructura y programas de mantenimiento preventivo.",
+            "actividades": [
+              "Diseño de programa de inspecciones",
+              "Planificación de mantenimiento",
+              "Documentación de hallazgos"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP7.1",
+            "titulo": "Edificio Antiguo sin Accesibilidad",
+            "descripcion": "Una empresa ocupa un edificio de 1980 que no cumple con normativas de accesibilidad. Debe contratar a una persona con discapacidad motriz.",
+            "preguntas_analisis": [
+              "¿Qué adaptaciones son obligatorias?",
+              "¿Cuáles son los plazos para implementarlas?",
+              "¿Qué alternativas existen si las adaptaciones son imposibles?"
+            ],
+            "solucion": "Evaluar adaptaciones razonables: rampas, puertas amplias, servicios sanitarios accesibles, señalización. Si son técnicamente imposibles, considerar reubicación o adaptación del puesto específico. Consultar normativa técnica de CONAIPD."
+          },
+          {
+            "caso_id": "CP7.2",
+            "titulo": "Construcción con Deficiencias de Ventilación",
+            "descripcion": "Durante inspección se detecta que un taller de pintura no tiene el sistema de ventilación especificado en planos aprobados.",
+            "preguntas_analisis": [
+              "¿Qué acciones debe tomar la DGPS?",
+              "¿Puede funcionar el taller sin ventilación adecuada?",
+              "¿Qué responsabilidades tiene el empleador?"
+            ],
+            "solucion": "La DGPS debe ordenar suspensión de actividades hasta corrección. El empleador debe instalar sistema de ventilación según planos aprobados. No puede operar sin ventilación adecuada por riesgo de intoxicación por vapores de pintura."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Qué institución aprueba los planos arquitectónicos de lugares de trabajo?",
+              "opciones": [
+                "a) Ministerio de Obras Públicas",
+                "b) Dirección General de Previsión Social",
+                "c) Alcaldía municipal",
+                "d) Colegio de Arquitectos"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El artículo 19 establece que la DGPS debe aprobar planos que cumplan requisitos de seguridad ocupacional."
+            },
+            {
+              "pregunta": "¿Qué normativa rige la accesibilidad en lugares de trabajo?",
+              "opciones": [
+                "a) Código de Construcción",
+                "b) Ley de Equiparación de Oportunidades",
+                "c) Normativa Técnica de Accesibilidad del CONAIPD",
+                "d) Reglamento de Construcción Municipal"
+              ],
+              "respuesta_correcta": "c",
+              "explicacion": "El artículo 21 específicamente menciona la Normativa Técnica de Accesibilidad elaborada por CONAIPD."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "La DGPS puede inspeccionar físicamente las obras durante construcción.",
+              "respuesta_correcta": true,
+              "explicacion": "El artículo 19 faculta a la DGPS para inspeccionar obras y verificar cumplimiento de planos."
+            },
+            {
+              "pregunta": "Los colores de paredes y techos no afectan la seguridad ocupacional.",
+              "respuesta_correcta": false,
+              "explicacion": "El artículo 25 establece requisitos específicos de colores para no disminuir la iluminación."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "checklist",
+            "titulo": "Lista de Verificación de Planos",
+            "descripcion": "Herramienta para revisar cumplimiento de requisitos en planos"
+          },
+          {
+            "tipo": "normativa",
+            "titulo": "Normativa Técnica de Accesibilidad CONAIPD",
+            "descripcion": "Documento completo con especificaciones de accesibilidad"
+          }
+        ]
+      },
+
+      "modulo_8": {
+        "id": "modulo_8",
+        "titulo": "Condiciones Ambientales y Equipos de Trabajo",
+        "curso_id": "curso_4",
+        "duracion": "13 horas",
+        "objetivos_aprendizaje": [
+          "Evaluar condiciones ambientales de trabajo (iluminación, ventilación, ruido)",
+          "Comprender requisitos de seguridad en maquinaria y equipos",
+          "Identificar riesgos específicos por tipo de actividad",
+          "Implementar medidas de control ambiental"
+        ],
+        "contenido_educativo": {
+          "introduccion": "Las condiciones ambientales y la seguridad de equipos son factores críticos para la salud ocupacional. Los artículos 28 al 60 establecen parámetros específicos para diferentes aspectos del ambiente laboral.",
+          "temas": [
+            {
+              "tema": "Condiciones Ambientales",
+              "contenido": "Requisitos específicos para iluminación, ventilación, temperatura, humedad y control de contaminantes.",
+              "puntos_clave": [
+                "Niveles mínimos de iluminación según actividad",
+                "Sistemas de ventilación natural y artificial",
+                "Control de temperatura y humedad",
+                "Prevención de contaminantes químicos y biológicos"
+              ]
+            },
+            {
+              "tema": "Seguridad en Maquinaria y Equipos",
+              "contenido": "Protecciones obligatorias, mantenimiento preventivo y operación segura de maquinaria industrial.",
+              "puntos_clave": [
+                "Protecciones mecánicas obligatorias",
+                "Programas de mantenimiento preventivo",
+                "Capacitación en operación segura",
+                "Sistemas de parada de emergencia"
+              ]
+            },
+            {
+              "tema": "Control de Riesgos Específicos",
+              "contenido": "Medidas específicas para riesgos químicos, físicos, biológicos y ergonómicos según tipo de industria.",
+              "puntos_clave": [
+                "Evaluación de exposición a químicos",
+                "Control de ruido y vibraciones",
+                "Prevención de riesgos biológicos",
+                "Medidas ergonómicas específicas"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "8.1",
+            "titulo": "Iluminación y Ventilación",
+            "duracion": "4 horas",
+            "contenido": "Evaluación de niveles de iluminación, diseño de sistemas de ventilación y control de calidad del aire.",
+            "actividades": [
+              "Medición de niveles de iluminación",
+              "Evaluación de sistemas de ventilación",
+              "Cálculo de renovaciones de aire"
+            ]
+          },
+          {
+            "leccion_id": "8.2",
+            "titulo": "Control de Contaminantes",
+            "duracion": "4 horas",
+            "contenido": "Identificación y control de polvos, gases, vapores, humos y nieblas en el ambiente laboral.",
+            "actividades": [
+              "Identificación de fuentes de contaminación",
+              "Diseño de sistemas de captación",
+              "Selección de equipos de control"
+            ]
+          },
+          {
+            "leccion_id": "8.3",
+            "titulo": "Seguridad en Maquinaria",
+            "duracion": "3 horas",
+            "contenido": "Protecciones mecánicas, dispositivos de seguridad y procedimientos de operación segura.",
+            "actividades": [
+              "Inspección de protecciones mecánicas",
+              "Evaluación de dispositivos de seguridad",
+              "Elaboración de procedimientos seguros"
+            ]
+          },
+          {
+            "leccion_id": "8.4",
+            "titulo": "Monitoreo y Control Ambiental",
+            "duracion": "2 horas",
+            "contenido": "Programas de monitoreo ambiental, instrumentos de medición y sistemas de alerta.",
+            "actividades": [
+              "Diseño de programa de monitoreo",
+              "Uso de instrumentos de medición",
+              "Interpretación de resultados"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP8.1",
+            "titulo": "Exposición a Solventes en Imprenta",
+            "descripcion": "Una imprenta presenta altos niveles de vapores de solventes. Los trabajadores reportan dolores de cabeza y mareos.",
+            "preguntas_analisis": [
+              "¿Qué medidas de control implementar?",
+              "¿Cómo evaluar la exposición?",
+              "¿Qué EPP es necesario?"
+            ],
+            "solucion": "Implementar jerarquía de controles: 1) Sustitución por solventes menos tóxicos, 2) Ventilación local exhaustiva en puntos de emisión, 3) Ventilación general, 4) Rotación de personal, 5) Respiradores con filtros específicos. Monitoreo ambiental regular."
+          },
+          {
+            "caso_id": "CP8.2",
+            "titulo": "Ruido Excesivo en Carpintería",
+            "descripcion": "Una carpintería presenta niveles de ruido de 92 dB durante 8 horas. Los trabajadores no usan protección auditiva consistentemente.",
+            "preguntas_analisis": [
+              "¿Se exceden los límites permisibles?",
+              "¿Qué controles de ingeniería aplicar?",
+              "¿Cómo mejorar el uso de EPP?"
+            ],
+            "solucion": "92 dB por 8 horas excede límites (85 dB). Controles: mantenimiento de equipos, silenciadores, barreras acústicas, rotación de tareas. Mejorar EPP: selección adecuada, capacitación, supervisión, programa de conservación auditiva."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Cuál es el límite de exposición diaria al ruido?",
+              "opciones": [
+                "a) 80 dB por 8 horas",
+                "b) 85 dB por 8 horas",
+                "c) 90 dB por 8 horas",
+                "d) 95 dB por 8 horas"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El límite internacional reconocido es 85 dB para 8 horas de exposición laboral."
+            },
+            {
+              "pregunta": "¿Qué tipo de ventilación es más efectiva para controlar contaminantes?",
+              "opciones": [
+                "a) Ventilación natural",
+                "b) Ventilación general",
+                "c) Ventilación local exhaustiva",
+                "d) Aire acondicionado"
+              ],
+              "respuesta_correcta": "c",
+              "explicacion": "La ventilación local exhaustiva captura contaminantes en la fuente antes de dispersarse."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "Todas las máquinas deben tener protecciones mecánicas.",
+              "respuesta_correcta": true,
+              "explicacion": "La ley exige protecciones en maquinaria para prevenir accidentes por contacto con partes móviles."
+            },
+            {
+              "pregunta": "La iluminación natural siempre es suficiente para el trabajo.",
+              "respuesta_correcta": false,
+              "explicacion": "Muchas actividades requieren niveles específicos de iluminación que pueden necesitar complemento artificial."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "tabla",
+            "titulo": "Niveles de Iluminación por Actividad",
+            "descripcion": "Tabla de referencia con niveles mínimos según tipo de trabajo"
+          },
+          {
+            "tipo": "calculadora",
+            "titulo": "Calculadora de Renovaciones de Aire",
+            "descripcion": "Herramienta para calcular ventilación necesaria"
+          }
+        ]
+      },
+
+      "modulo_9": {
+        "id": "modulo_9",
+        "titulo": "Obligaciones de Empleadores y Derechos de Trabajadores",
+        "curso_id": "curso_5",
+        "duracion": "15 horas",
+        "objetivos_aprendizaje": [
+          "Dominar las obligaciones específicas de los empleadores",
+          "Conocer los derechos fundamentales de los trabajadores",
+          "Comprender los mecanismos de participación y consulta",
+          "Identificar situaciones de incumplimiento y sus consecuencias"
+        ],
+        "contenido_educativo": {
+          "introduccion": "Los artículos 61 al 85 establecen el marco de obligaciones y derechos que define las responsabilidades de cada parte en la relación laboral respecto a la seguridad y salud ocupacional.",
+          "temas": [
+            {
+              "tema": "Obligaciones Generales del Empleador",
+              "contenido": "Conjunto amplio de obligaciones que van desde la provisión de condiciones seguras hasta la capacitación y supervisión.",
+              "puntos_clave": [
+                "Garantizar condiciones seguras de trabajo",
+                "Proporcionar EPP sin costo",
+                "Capacitar en riesgos y medidas preventivas",
+                "Informar sobre riesgos del puesto",
+                "Supervisar cumplimiento de normas",
+                "Facilitar participación en comités",
+                "Mantener registros actualizados"
+              ]
+            },
+            {
+              "tema": "Derechos Fundamentales de los Trabajadores",
+              "contenido": "Derechos irrenunciables relacionados con información, participación, capacitación y protección.",
+              "puntos_clave": [
+                "Derecho a información sobre riesgos",
+                "Participación en decisiones preventivas",
+                "Capacitación gratuita y en horario laboral",
+                "Equipos de protección sin costo",
+                "Vigilancia de la salud",
+                "Paralización por riesgo grave",
+                "No discriminación por ejercer derechos"
+              ]
+            },
+            {
+              "tema": "Obligaciones de los Trabajadores",
+              "contenido": "Responsabilidades de los trabajadores en el cumplimiento de medidas preventivas y colaboración activa.",
+              "puntos_clave": [
+                "Cumplir normas de seguridad",
+                "Usar correctamente EPP",
+                "Informar sobre riesgos detectados",
+                "Participar en capacitaciones",
+                "Colaborar en investigaciones",
+                "Cuidar su seguridad y la de compañeros"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "9.1",
+            "titulo": "Marco de Obligaciones Empresariales",
+            "duracion": "4 horas",
+            "contenido": "Análisis detallado de las obligaciones legales del empleador y su implementación práctica.",
+            "actividades": [
+              "Análisis de casos de incumplimiento",
+              "Elaboración de matriz de obligaciones",
+              "Evaluación de costos de cumplimiento"
+            ]
+          },
+          {
+            "leccion_id": "9.2",
+            "titulo": "Derechos Irrenunciables de los Trabajadores",
+            "duracion": "4 horas",
+            "contenido": "Estudio de los derechos fundamentales y mecanismos para su ejercicio efectivo.",
+            "actividades": [
+              "Casos de violación de derechos",
+              "Mecanismos de denuncia",
+              "Ejercicio de derechos en la práctica"
+            ]
+          },
+          {
+            "leccion_id": "9.3",
+            "titulo": "Participación y Consulta",
+            "duracion": "3 horas",
+            "contenido": "Mecanismos de participación trabajadora en decisiones de seguridad y salud ocupacional.",
+            "actividades": [
+              "Diseño de sistemas de consulta",
+              "Simulación de procesos participativos",
+              "Evaluación de efectividad"
+            ]
+          },
+          {
+            "leccion_id": "9.4",
+            "titulo": "Responsabilidades Mutuas y Colaboración",
+            "duracion": "4 horas",
+            "contenido": "Balance entre derechos y obligaciones, construcción de cultura preventiva colaborativa.",
+            "actividades": [
+              "Análisis de responsabilidades compartidas",
+              "Construcción de acuerdos preventivos",
+              "Evaluación de clima laboral"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP9.1",
+            "titulo": "Negativa a Proporcionar EPP",
+            "descripcion": "Una empresa argumenta que no puede costear EPP de calidad y exige que los trabajadores lo compren o usen equipos de menor calidad.",
+            "preguntas_analisis": [
+              "¿Es legal trasladar el costo del EPP al trabajador?",
+              "¿Qué acciones pueden tomar los trabajadores?",
+              "¿Cuáles son las consecuencias legales?"
+            ],
+            "solucion": "Es ilegal trasladar costos de EPP al trabajador. Los trabajadores pueden: 1) Negarse a trabajar sin EPP adecuado, 2) Denunciar ante inspección de trabajo, 3) Activar comité de seguridad. La empresa enfrenta sanciones y responsabilidad por accidentes."
+          },
+          {
+            "caso_id": "CP9.2",
+            "titulo": "Trabajador se Niega a Usar EPP",
+            "descripcion": "Un trabajador experimentado se niega sistemáticamente a usar casco y arnés de seguridad, argumentando que 'nunca ha pasado nada'.",
+            "preguntas_analisis": [
+              "¿Puede la empresa sancionar al trabajador?",
+              "¿Qué medidas preventivas tomar?",
+              "¿Cómo equilibrar derechos y obligaciones?"
+            ],
+            "solucion": "La empresa puede sancionar por incumplimiento de obligaciones de seguridad. Medidas: 1) Capacitación reforzada, 2) Supervisión directa, 3) Medidas disciplinarias progresivas, 4) Como último recurso, terminación por justa causa. Documentar todo el proceso."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Quién debe costear el equipo de protección personal?",
+              "opciones": [
+                "a) El trabajador",
+                "b) El empleador",
+                "c) El seguro social",
+                "d) Se comparte el costo"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "La ley establece que el empleador debe proporcionar EPP sin costo para el trabajador."
+            },
+            {
+              "pregunta": "¿Cuándo puede un trabajador paralizar su trabajo?",
+              "opciones": [
+                "a) Cuando no le guste la tarea",
+                "b) Solo con autorización del supervisor",
+                "c) Ante riesgo grave e inminente",
+                "d) Nunca puede paralizar"
+              ],
+              "respuesta_correcta": "c",
+              "explicacion": "Los trabajadores tienen derecho a paralizar ante situaciones de riesgo grave e inminente."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "Los trabajadores pueden ser sancionados por ejercer sus derechos de seguridad.",
+              "respuesta_correcta": false,
+              "explicacion": "La ley prohíbe expresamente la discriminación por ejercer derechos de seguridad ocupacional."
+            },
+            {
+              "pregunta": "La capacitación en seguridad debe ser en horario laboral y sin costo.",
+              "respuesta_correcta": true,
+              "explicacion": "La capacitación es obligación del empleador y debe proporcionarse sin costo ni pérdida salarial."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "matriz",
+            "titulo": "Matriz de Obligaciones y Derechos",
+            "descripcion": "Tabla comparativa de obligaciones empresariales y derechos trabajadores"
+          },
+          {
+            "tipo": "procedimiento",
+            "titulo": "Procedimiento de Denuncia",
+            "descripcion": "Pasos para denunciar violaciones a derechos de seguridad"
+          }
+        ]
+      },
+
+      "modulo_10": {
+        "id": "modulo_10",
+        "titulo": "Régimen Sancionador y Cumplimiento",
+        "curso_id": "curso_5",
+        "duracion": "15 horas",
+        "objetivos_aprendizaje": [
+          "Conocer el sistema de infracciones y sanciones",
+          "Comprender los procedimientos de inspección",
+          "Identificar las competencias de las autoridades",
+          "Desarrollar estrategias de cumplimiento preventivo"
+        ],
+        "contenido_educativo": {
+          "introduccion": "Los artículos 86 al 100 establecen el régimen sancionador que garantiza el cumplimiento efectivo de la ley mediante un sistema graduado de infracciones, sanciones y procedimientos.",
+          "temas": [
+            {
+              "tema": "Clasificación de Infracciones",
+              "contenido": "Sistema de infracciones leves, graves y muy graves con criterios específicos de clasificación.",
+              "puntos_clave": [
+                "Infracciones leves: incumplimientos menores",
+                "Infracciones graves: riesgos significativos",
+                "Infracciones muy graves: riesgo inminente o reincidencia",
+                "Criterios de graduación de sanciones"
+              ]
+            },
+            {
+              "tema": "Sistema de Sanciones",
+              "contenido": "Multas graduadas, medidas correctivas y sanciones accesorias según gravedad de la infracción.",
+              "puntos_clave": [
+                "Multas económicas por tipo de infracción",
+                "Medidas correctivas obligatorias",
+                "Suspensión de actividades peligrosas",
+                "Publicación de sanciones graves"
+              ]
+            },
+            {
+              "tema": "Procedimiento de Inspección",
+              "contenido": "Proceso de inspección, derechos de los inspeccionados y recursos disponibles.",
+              "puntos_clave": [
+                "Facultades de los inspectores",
+                "Derechos durante la inspección",
+                "Plazos para corrección",
+                "Recursos de apelación"
+              ]
+            }
+          ]
+        },
+        "lecciones": [
+          {
+            "leccion_id": "10.1",
+            "titulo": "Sistema de Infracciones",
+            "duracion": "4 horas",
+            "contenido": "Análisis detallado de los tipos de infracciones y criterios de clasificación.",
+            "actividades": [
+              "Clasificación de casos reales",
+              "Análisis de criterios de graduación",
+              "Evaluación de reincidencia"
+            ]
+          },
+          {
+            "leccion_id": "10.2",
+            "titulo": "Sanciones y Medidas Correctivas",
+            "duracion": "4 horas",
+            "contenido": "Estudio del sistema sancionador y su aplicación práctica.",
+            "actividades": [
+              "Cálculo de multas según infracciones",
+              "Diseño de medidas correctivas",
+              "Análisis de casos de suspensión"
+            ]
+          },
+          {
+            "leccion_id": "10.3",
+            "titulo": "Proceso de Inspección",
+            "duracion": "4 horas",
+            "contenido": "Procedimientos de inspección, derechos y obligaciones durante el proceso.",
+            "actividades": [
+              "Simulación de inspección",
+              "Ejercicio de derechos del inspeccionado",
+              "Elaboración de planes de corrección"
+            ]
+          },
+          {
+            "leccion_id": "10.4",
+            "titulo": "Estrategias de Cumplimiento",
+            "duracion": "3 horas",
+            "contenido": "Desarrollo de estrategias proactivas para evitar infracciones y sanciones.",
+            "actividades": [
+              "Auditorías internas de cumplimiento",
+              "Sistemas de alerta temprana",
+              "Planes de mejora continua"
+            ]
+          }
+        ],
+        "casos_practicos": [
+          {
+            "caso_id": "CP10.1",
+            "titulo": "Inspección con Hallazgos Graves",
+            "descripcion": "Durante una inspección se detectan múltiples infracciones: falta de comité de seguridad, trabajadores sin EPP, maquinaria sin protecciones.",
+            "preguntas_analisis": [
+              "¿Cómo se clasifican estas infracciones?",
+              "¿Qué sanciones corresponden?",
+              "¿Qué medidas correctivas implementar?"
+            ],
+            "solucion": "Infracciones graves múltiples. Sanciones: multas por cada infracción, orden de corrección inmediata, posible suspensión parcial. Medidas: crear comité urgente, proporcionar EPP, instalar protecciones, capacitar personal, implementar programa completo."
+          },
+          {
+            "caso_id": "CP10.2",
+            "titulo": "Reincidencia en Infracciones",
+            "descripcion": "Una empresa fue sancionada hace 6 meses por falta de capacitación. Nueva inspección detecta la misma deficiencia sin corrección.",
+            "preguntas_analisis": [
+              "¿Cómo afecta la reincidencia a la sanción?",
+              "¿Qué medidas adicionales puede tomar la autoridad?",
+              "¿Cuáles son las consecuencias para la empresa?"
+            ],
+            "solucion": "Reincidencia agrava la sanción, puede elevarse a infracción muy grave. Autoridad puede: aumentar multa, suspender actividades, publicar sanción, intensificar seguimiento. Empresa enfrenta mayor costo económico y reputacional."
+          }
+        ],
+        "evaluacion": {
+          "preguntas_opcion_multiple": [
+            {
+              "pregunta": "¿Qué caracteriza una infracción muy grave?",
+              "opciones": [
+                "a) Cualquier incumplimiento de la ley",
+                "b) Riesgo inminente o reincidencia en graves",
+                "c) Solo accidentes mortales",
+                "d) Falta de documentación"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "Las infracciones muy graves se caracterizan por riesgo grave e inminente o reincidencia en infracciones graves."
+            },
+            {
+              "pregunta": "¿Quién tiene competencia para sancionar infracciones?",
+              "opciones": [
+                "a) Los comités de seguridad",
+                "b) El Ministerio de Trabajo y Previsión Social",
+                "c) Los tribunales laborales",
+                "d) Las alcaldías municipales"
+              ],
+              "respuesta_correcta": "b",
+              "explicacion": "El MTPS a través de sus direcciones tiene competencia sancionadora según la ley."
+            }
+          ],
+          "preguntas_verdadero_falso": [
+            {
+              "pregunta": "Las sanciones pueden incluir suspensión de actividades peligrosas.",
+              "respuesta_correcta": true,
+              "explicacion": "La ley faculta a suspender actividades que presenten riesgo grave e inminente."
+            },
+            {
+              "pregunta": "Solo se pueden imponer multas como sanción.",
+              "respuesta_correcta": false,
+              "explicacion": "Además de multas, se pueden imponer medidas correctivas, suspensiones y otras sanciones accesorias."
+            }
+          ]
+        },
+        "recursos_adicionales": [
+          {
+            "tipo": "tabla",
+            "titulo": "Tabla de Sanciones por Tipo de Infracción",
+            "descripcion": "Referencia rápida de multas y sanciones según gravedad"
+          },
+          {
+            "tipo": "checklist",
+            "titulo": "Lista de Autoevaluación de Cumplimiento",
+            "descripcion": "Herramienta para evaluar cumplimiento y prevenir infracciones"
+          }
+        ]
+      }
+    },
+
+    "evaluacion_final": {
+      "estructura": {
+        "examen_teorico": {
+          "preguntas_opcion_multiple": 50,
+          "preguntas_verdadero_falso": 25,
+          "casos_practicos": 5,
+          "duracion": "3 horas",
+          "puntaje_minimo": 70
+        },
+        "proyecto_final": {
+          "tipo": "Diseño de Programa de Gestión Completo",
+          "descripcion": "Elaborar un programa completo para una empresa específica",
+          "componentes": [
+            "Diagnóstico de riesgos",
+            "Programa de gestión con 10 elementos",
+            "Estructura de comité de seguridad",
+            "Plan de capacitación",
+            "Sistema de evaluación y seguimiento"
+          ],
+          "duracion": "2 semanas",
+          "puntaje_minimo": 75
+        }
+      }
+    },
+
+    "recursos_complementarios": {
+      "biblioteca_digital": [
+        {
+          "categoria": "Normativa Nacional",
+          "documentos": [
+            "Ley General de Prevención de Riesgos (texto completo)",
+            "Reglamentos de ejecución específicos",
+            "Normativas técnicas complementarias"
+          ]
+        },
+        {
+          "categoria": "Convenios Internacionales",
+          "documentos": [
+            "Convenio 155 OIT - Seguridad y Salud",
+            "Convenio 161 OIT - Servicios de Salud",
+            "Recomendaciones OIT relacionadas"
+          ]
+        },
+        {
+          "categoria": "Guías Técnicas",
+          "documentos": [
+            "Manual de identificación de riesgos",
+            "Guía de evaluación ergonómica",
+            "Procedimientos de investigación de accidentes"
+          ]
+        }
+      ],
+      "herramientas_practicas": [
+        {
+          "nombre": "Matriz de Identificación de Riesgos",
+          "descripcion": "Herramienta Excel para identificar y evaluar riesgos por puesto"
+        },
+        {
+          "nombre": "Calculadora de Delegados",
+          "descripcion": "Aplicación web para determinar número de delegados"
+        },
+        {
+          "nombre": "Generador de Programas de Capacitación",
+          "descripcion": "Plantilla para diseñar programas según sector"
+        }
+      ],
+      "casos_estudio": [
+        {
+          "sector": "Construcción",
+          "titulo": "Implementación integral en empresa constructora",
+          "descripcion": "Caso completo de implementación en empresa de 300 trabajadores"
+        },
+        {
+          "sector": "Manufactura",
+          "titulo": "Transformación cultural en maquiladora",
+          "descripcion": "Proceso de cambio cultural hacia la prevención"
+        },
+        {
+          "sector": "Servicios",
+          "titulo": "Gestión de riesgos psicosociales en call center",
+          "descripcion": "Abordaje integral de riesgos psicosociales"
+        }
+      ]
+    },
+
+    "sistema_seguimiento": {
+      "indicadores_aprendizaje": [
+        "Porcentaje de módulos completados",
+        "Calificación promedio en evaluaciones",
+        "Tiempo dedicado por módulo",
+        "Participación en actividades prácticas"
+      ],
+      "mecanismos_retroalimentacion": [
+        "Evaluaciones automáticas con retroalimentación inmediata",
+        "Foros de discusión por módulo",
+        "Sesiones de tutoría virtual",
+        "Evaluación de satisfacción por curso"
+      ],
+      "certificacion_continua": {
+        "requisitos_mantenimiento": "20 horas de educación continua anual",
+        "actividades_validas": [
+          "Cursos de actualización normativa",
+          "Participación en conferencias especializadas",
+          "Elaboración de casos de estudio",
+          "Mentoría a nuevos miembros"
+        ]
+      }
+    },
+
+    "metodologia_pedagogica": {
+      "enfoque": "Aprendizaje activo y experiencial",
+      "principios": [
+        "Aprendizaje basado en problemas reales",
+        "Construcción colaborativa del conocimiento",
+        "Aplicación práctica inmediata",
+        "Reflexión crítica sobre la experiencia"
+      ],
+      "estrategias": [
+        "Estudios de caso del contexto salvadoreño",
+        "Simulaciones de situaciones laborales",
+        "Trabajo colaborativo en equipos",
+        "Proyectos de aplicación práctica"
+      ],
+      "adaptaciones": {
+        "trabajadores_sin_formacion_previa": [
+          "Lenguaje sencillo y ejemplos cotidianos",
+          "Apoyo visual y multimedia",
+          "Ritmo de aprendizaje flexible",
+          "Tutoría personalizada"
+        ],
+        "profesionales_experimentados": [
+          "Casos complejos y desafiantes",
+          "Análisis crítico de normativas",
+          "Proyectos de investigación aplicada",
+          "Intercambio de experiencias"
+        ]
+      }
+    }
+  }
+}
